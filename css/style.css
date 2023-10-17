@@ -1,7 +1,9 @@
+*{
+    box-sizing: border-box;
+}
 body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /* header logo */
@@ -20,8 +22,48 @@ body, html {
 /* main */
 
 #contenitore-grigio{
+    display: inline-block;
     width: 100%;
     height: 1000px;
     background-color: rgb(238, 238, 238);
+
+}
+
+/* contenitore alto */
+.contenitori-alto-main{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 30px;
+    height: 40px;
+    padding-left: 40px;
+    padding-top: 6px;
+
+}
+
+#pulsante-addtask{
+    background-color: rgb(5, 202, 252);
+    color: white;
+    border-color: rgb(5, 202, 252);
+    box-sizing: content-box;
+    padding: 5px;
+    border-radius: 7px;
+    
+}
+
+#pulsante-addsection{
+    background-color: white;
+    color: grey;
+    box-sizing: content-box;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+/* contenitore principale main con UL */
+.contenitore-medio-main{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+
 }
 
