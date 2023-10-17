@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body, html {
     margin: 0;
@@ -62,8 +64,13 @@ body, html {
 /* contenitore principale main con UL */
 .contenitore-medio-main{
     width: 60%;
+    height: 800px;
     margin: 0 auto;
     background-color: white;
+}
+
+ul{
+    margin: 25px;
 }
 
 .scritte-principali{
@@ -72,4 +79,43 @@ body, html {
 }
 
 
+.background-rotondi {
+    box-sizing: content-box;
+    border-radius: 10px;
+    padding: 8px;
+    color: white;
+    font-size: small;
+}
 
+.blu{
+    background-color: rgb(5, 202, 252);
+}
+
+.viola{
+    background-color: blueviolet;
+}
+
+.verde{
+    background-color: green;
+}
+
+.arancione{
+    background-color: orange;
+}
+
+.rosa{
+    background-color: palevioletred;
+}
+
+.verde-chiaro{
+    background-color: greenyellow;
+}
+
+.altezza-grandezza-righe{
+    line-height: 2;
+    font-size: 20px;
+}
+
+.distanza-top{
+    padding-top: 40px;
+}
