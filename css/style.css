@@ -64,6 +64,12 @@ body, html {
     width: 60%;
     margin: 0 auto;
     background-color: white;
-
 }
+
+.scritte-principali{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
 
