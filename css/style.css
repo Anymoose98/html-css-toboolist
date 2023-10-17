@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.contenitore-header{
+    margin-left: 1%;
+}
+.logo-scritta{
+    display: inline-block;
+    vertical-align:middle
+}
+
+#header-scritta{
+    font-weight: 900;
+}
