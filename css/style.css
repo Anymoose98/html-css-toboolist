@@ -70,7 +70,10 @@ body, html {
 }
 
 ul{
-    margin: 25px;
+    
+    margin: 5px 25px;
+    list-style: none;
+
 }
 
 .scritte-principali{
@@ -118,4 +121,19 @@ ul{
 
 .distanza-top{
     padding-top: 40px;
+}
+  
+.simbolo-triangolo::before{
+    content: "▼ "; 
+    margin-right: 3px; 
+}
+
+.simbolo-spunta::before{
+    content: "✓"; 
+    margin-right: 3px; 
+}
+
+.simbolo-x::before{
+    content: "✗"; 
+    margin-right: 3px; 
 }
